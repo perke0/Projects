@@ -25,8 +25,7 @@ int main(void){
         int hand = 0;
         printf("Chose number:\n 1. Rock\n 2. Paper\n 3. Scissors\n");
         scanf("%d\n", &hand);
-        int ans = comp - hand;
-        switch (ans)
+        switch (comp - hand)
         {
         case -2:
             lose();
